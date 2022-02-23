@@ -40,9 +40,9 @@ vi ~/.bash_profile  # and add the lines below
 export M2_HOME=/opt/maven
 export PATH=$PATH:$M2_HOME/bin
 ```
-## .#Step4) Refresh the profile file and Verify if maven is running
+## .#Step4) Type "cd" to return to home directory and Refresh the profile file and Verify if maven is running
 ```sh
-source ~/.bashrc
+source .bash_profile
 mvn -version
 ```
 
